@@ -1,5 +1,5 @@
-$target_vcenter = "ht-vcenter67dc.healthtexas.local"
-$source_vcenter = "gs-dc-vc-01.healthtexas.local"
+$source_vcenter = "ht-vcenter67dc.healthtexas.local"
+$target_vcenter = "gs-dc-vc-01.healthtexas.local"
 $default_username = "Administrator@vsphere.local"
 
 if (!$source_vcenter_creds) { $source_vcenter_creds = Get-Credential -Message "Source vCenter Creds" }
