@@ -1,0 +1,8 @@
+**/isos
+**/credentials*
+.DS_Store
+**/.envrc
+**/exports
+**/output
+**/*.csv
+**/*.json
